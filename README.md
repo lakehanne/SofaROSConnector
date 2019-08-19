@@ -11,13 +11,10 @@ The top-level directory of your SOFA source tree is referred to as $SOFA_ROOT in
 
 After git has finished cloning the repositories, please add the following lines at the end of $SOFA_ROOT/applications/plugins/CMakeLists.txt with the following commands(do this from the root directory of SOFA):
 
-echo "set(SOFA_BUILD_METIS ON CACHE BOOL "Compile SOFA with Metis support by default as per dependency for the SoftRobots plugin." FORCE)
-set(PLUGIN_SOFAPYTHON ON CACHE BOOL "Compile the SofaPython plugin by default as per dependency for the SoftRobots plugin." FORCE)
+echo -e "\n\nset(SOFA_BUILD_METIS ON CACHE BOOL "Compile SOFA with Metis support by default as per dependency for the SoftRobots plugin." FORCE) \n\nset(PLUGIN_SOFAPYTHON ON CACHE BOOL "Compile the SofaPython plugin by default as per dependency for the SoftRobots plugin." FORCE)
+\n\n
+sofa_add_plugin(STLIB STLIB ON) sofa_add_plugin(SoftRobots SoftRobots ON) sofa_add_plugin(SofaROSConnector ZyROSConnector ON) " >> applications/plugins/CMakeLists.txt
 
-sofa_add_plugin(STLIB STLIB ON)
-sofa_add_plugin(SoftRobots SoftRobots ON)
-sofa_add_plugin(SofaROSConnector ZyROSConnector ON)
-" >> applications/plugins/CMakeLists.txt
 
 Please make sure that the following CMake options are set to ON when you run cmake: 
 - SOFA_BUILD_METIS

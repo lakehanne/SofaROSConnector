@@ -130,6 +130,48 @@ template class ZyROSConnectorTopicPublisher<actionlib_msgs::GoalStatus>;
 // Publisher and subscriber proxy class instantiation for ROS message type: actionlib_msgs/GoalStatusArray
 template class ZyROSConnectorTopicPublisher<actionlib_msgs::GoalStatusArray>;
 
+// Publisher and subscriber proxy class instantiation for ROS message type: actionlib_tutorials/AveragingAction
+template class ZyROSConnectorTopicPublisher<actionlib_tutorials::AveragingAction>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: actionlib_tutorials/AveragingActionFeedback
+template class ZyROSConnectorTopicPublisher<actionlib_tutorials::AveragingActionFeedback>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: actionlib_tutorials/AveragingActionGoal
+template class ZyROSConnectorTopicPublisher<actionlib_tutorials::AveragingActionGoal>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: actionlib_tutorials/AveragingActionResult
+template class ZyROSConnectorTopicPublisher<actionlib_tutorials::AveragingActionResult>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: actionlib_tutorials/AveragingFeedback
+template class ZyROSConnectorTopicPublisher<actionlib_tutorials::AveragingFeedback>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: actionlib_tutorials/AveragingGoal
+template class ZyROSConnectorTopicPublisher<actionlib_tutorials::AveragingGoal>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: actionlib_tutorials/AveragingResult
+template class ZyROSConnectorTopicPublisher<actionlib_tutorials::AveragingResult>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: actionlib_tutorials/FibonacciAction
+template class ZyROSConnectorTopicPublisher<actionlib_tutorials::FibonacciAction>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: actionlib_tutorials/FibonacciActionFeedback
+template class ZyROSConnectorTopicPublisher<actionlib_tutorials::FibonacciActionFeedback>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: actionlib_tutorials/FibonacciActionGoal
+template class ZyROSConnectorTopicPublisher<actionlib_tutorials::FibonacciActionGoal>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: actionlib_tutorials/FibonacciActionResult
+template class ZyROSConnectorTopicPublisher<actionlib_tutorials::FibonacciActionResult>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: actionlib_tutorials/FibonacciFeedback
+template class ZyROSConnectorTopicPublisher<actionlib_tutorials::FibonacciFeedback>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: actionlib_tutorials/FibonacciGoal
+template class ZyROSConnectorTopicPublisher<actionlib_tutorials::FibonacciGoal>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: actionlib_tutorials/FibonacciResult
+template class ZyROSConnectorTopicPublisher<actionlib_tutorials::FibonacciResult>;
+
 // Publisher and subscriber proxy class instantiation for ROS message type: bond/Constants
 template class ZyROSConnectorTopicPublisher<bond::Constants>;
 
@@ -259,6 +301,18 @@ template class ZyROSConnectorTopicPublisher<control_msgs::SingleJointPositionGoa
 // Publisher and subscriber proxy class instantiation for ROS message type: control_msgs/SingleJointPositionResult
 template class ZyROSConnectorTopicPublisher<control_msgs::SingleJointPositionResult>;
 
+// Publisher and subscriber proxy class instantiation for ROS message type: controller_manager_msgs/ControllerState
+template class ZyROSConnectorTopicPublisher<controller_manager_msgs::ControllerState>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: controller_manager_msgs/ControllerStatistics
+template class ZyROSConnectorTopicPublisher<controller_manager_msgs::ControllerStatistics>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: controller_manager_msgs/ControllersStatistics
+template class ZyROSConnectorTopicPublisher<controller_manager_msgs::ControllersStatistics>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: controller_manager_msgs/HardwareInterfaceResources
+template class ZyROSConnectorTopicPublisher<controller_manager_msgs::HardwareInterfaceResources>;
+
 // Publisher and subscriber proxy class instantiation for ROS message type: diagnostic_msgs/DiagnosticArray
 template class ZyROSConnectorTopicPublisher<diagnostic_msgs::DiagnosticArray>;
 
@@ -297,6 +351,33 @@ template class ZyROSConnectorTopicPublisher<dynamic_reconfigure::SensorLevels>;
 
 // Publisher and subscriber proxy class instantiation for ROS message type: dynamic_reconfigure/StrParameter
 template class ZyROSConnectorTopicPublisher<dynamic_reconfigure::StrParameter>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: gazebo_msgs/ContactState
+template class ZyROSConnectorTopicPublisher<gazebo_msgs::ContactState>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: gazebo_msgs/ContactsState
+template class ZyROSConnectorTopicPublisher<gazebo_msgs::ContactsState>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: gazebo_msgs/LinkState
+template class ZyROSConnectorTopicPublisher<gazebo_msgs::LinkState>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: gazebo_msgs/LinkStates
+template class ZyROSConnectorTopicPublisher<gazebo_msgs::LinkStates>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: gazebo_msgs/ModelState
+template class ZyROSConnectorTopicPublisher<gazebo_msgs::ModelState>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: gazebo_msgs/ModelStates
+template class ZyROSConnectorTopicPublisher<gazebo_msgs::ModelStates>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: gazebo_msgs/ODEJointProperties
+template class ZyROSConnectorTopicPublisher<gazebo_msgs::ODEJointProperties>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: gazebo_msgs/ODEPhysics
+template class ZyROSConnectorTopicPublisher<gazebo_msgs::ODEPhysics>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: gazebo_msgs/WorldState
+template class ZyROSConnectorTopicPublisher<gazebo_msgs::WorldState>;
 
 // Publisher and subscriber proxy class instantiation for ROS message type: geometry_msgs/Accel
 template class ZyROSConnectorTopicPublisher<geometry_msgs::Accel>;
@@ -385,6 +466,18 @@ template class ZyROSConnectorTopicPublisher<geometry_msgs::Wrench>;
 // Publisher and subscriber proxy class instantiation for ROS message type: geometry_msgs/WrenchStamped
 template class ZyROSConnectorTopicPublisher<geometry_msgs::WrenchStamped>;
 
+// Publisher and subscriber proxy class instantiation for ROS message type: map_msgs/OccupancyGridUpdate
+template class ZyROSConnectorTopicPublisher<map_msgs::OccupancyGridUpdate>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: map_msgs/PointCloud2Update
+template class ZyROSConnectorTopicPublisher<map_msgs::PointCloud2Update>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: map_msgs/ProjectedMap
+template class ZyROSConnectorTopicPublisher<map_msgs::ProjectedMap>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: map_msgs/ProjectedMapInfo
+template class ZyROSConnectorTopicPublisher<map_msgs::ProjectedMapInfo>;
+
 // Publisher and subscriber proxy class instantiation for ROS message type: nav_msgs/GetMapAction
 template class ZyROSConnectorTopicPublisher<nav_msgs::GetMapAction>;
 
@@ -420,6 +513,18 @@ template class ZyROSConnectorTopicPublisher<nav_msgs::Odometry>;
 
 // Publisher and subscriber proxy class instantiation for ROS message type: nav_msgs/Path
 template class ZyROSConnectorTopicPublisher<nav_msgs::Path>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: pcl_msgs/ModelCoefficients
+template class ZyROSConnectorTopicPublisher<pcl_msgs::ModelCoefficients>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: pcl_msgs/PointIndices
+template class ZyROSConnectorTopicPublisher<pcl_msgs::PointIndices>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: pcl_msgs/PolygonMesh
+template class ZyROSConnectorTopicPublisher<pcl_msgs::PolygonMesh>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: pcl_msgs/Vertices
+template class ZyROSConnectorTopicPublisher<pcl_msgs::Vertices>;
 
 // Publisher and subscriber proxy class instantiation for ROS message type: roscpp/Logger
 template class ZyROSConnectorTopicPublisher<roscpp::Logger>;
@@ -540,9 +645,6 @@ template class ZyROSConnectorTopicPublisher<smach_msgs::SmachContainerStatus>;
 
 // Publisher and subscriber proxy class instantiation for ROS message type: smach_msgs/SmachContainerStructure
 template class ZyROSConnectorTopicPublisher<smach_msgs::SmachContainerStructure>;
-
-// Publisher and subscriber proxy class instantiation for ROS message type: sofa_softrobots_msgs/BodyTransforms
-template class ZyROSConnectorTopicPublisher<sofa_softrobots_msgs::BodyTransforms>;
 
 // Publisher and subscriber proxy class instantiation for ROS message type: std_msgs/Bool
 template class ZyROSConnectorTopicPublisher<std_msgs::Bool>;
@@ -673,6 +775,9 @@ template class ZyROSConnectorTopicPublisher<tf2_msgs::TF2Error>;
 // Publisher and subscriber proxy class instantiation for ROS message type: tf2_msgs/TFMessage
 template class ZyROSConnectorTopicPublisher<tf2_msgs::TFMessage>;
 
+// Publisher and subscriber proxy class instantiation for ROS message type: theora_image_transport/Packet
+template class ZyROSConnectorTopicPublisher<theora_image_transport::Packet>;
+
 // Publisher and subscriber proxy class instantiation for ROS message type: trajectory_msgs/JointTrajectory
 template class ZyROSConnectorTopicPublisher<trajectory_msgs::JointTrajectory>;
 
@@ -684,6 +789,36 @@ template class ZyROSConnectorTopicPublisher<trajectory_msgs::MultiDOFJointTrajec
 
 // Publisher and subscriber proxy class instantiation for ROS message type: trajectory_msgs/MultiDOFJointTrajectoryPoint
 template class ZyROSConnectorTopicPublisher<trajectory_msgs::MultiDOFJointTrajectoryPoint>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: turtle_actionlib/ShapeAction
+template class ZyROSConnectorTopicPublisher<turtle_actionlib::ShapeAction>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: turtle_actionlib/ShapeActionFeedback
+template class ZyROSConnectorTopicPublisher<turtle_actionlib::ShapeActionFeedback>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: turtle_actionlib/ShapeActionGoal
+template class ZyROSConnectorTopicPublisher<turtle_actionlib::ShapeActionGoal>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: turtle_actionlib/ShapeActionResult
+template class ZyROSConnectorTopicPublisher<turtle_actionlib::ShapeActionResult>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: turtle_actionlib/ShapeFeedback
+template class ZyROSConnectorTopicPublisher<turtle_actionlib::ShapeFeedback>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: turtle_actionlib/ShapeGoal
+template class ZyROSConnectorTopicPublisher<turtle_actionlib::ShapeGoal>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: turtle_actionlib/ShapeResult
+template class ZyROSConnectorTopicPublisher<turtle_actionlib::ShapeResult>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: turtle_actionlib/Velocity
+template class ZyROSConnectorTopicPublisher<turtle_actionlib::Velocity>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: turtlesim/Color
+template class ZyROSConnectorTopicPublisher<turtlesim::Color>;
+
+// Publisher and subscriber proxy class instantiation for ROS message type: turtlesim/Pose
+template class ZyROSConnectorTopicPublisher<turtlesim::Pose>;
 
 // Publisher and subscriber proxy class instantiation for ROS message type: visualization_msgs/ImageMarker
 template class ZyROSConnectorTopicPublisher<visualization_msgs::ImageMarker>;
@@ -862,6 +997,90 @@ boost::shared_ptr<ZyROSPublisher> ZyROSConnectorMessagePublisherFactory::createT
 	{
 		supported = true;
 		topicPublisher.reset(new ZyROSConnectorTopicPublisher<actionlib_msgs::GoalStatusArray>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: actionlib_tutorials/AveragingAction
+	if (messageType == "actionlib_tutorials::AveragingAction")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<actionlib_tutorials::AveragingAction>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: actionlib_tutorials/AveragingActionFeedback
+	if (messageType == "actionlib_tutorials::AveragingActionFeedback")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<actionlib_tutorials::AveragingActionFeedback>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: actionlib_tutorials/AveragingActionGoal
+	if (messageType == "actionlib_tutorials::AveragingActionGoal")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<actionlib_tutorials::AveragingActionGoal>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: actionlib_tutorials/AveragingActionResult
+	if (messageType == "actionlib_tutorials::AveragingActionResult")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<actionlib_tutorials::AveragingActionResult>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: actionlib_tutorials/AveragingFeedback
+	if (messageType == "actionlib_tutorials::AveragingFeedback")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<actionlib_tutorials::AveragingFeedback>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: actionlib_tutorials/AveragingGoal
+	if (messageType == "actionlib_tutorials::AveragingGoal")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<actionlib_tutorials::AveragingGoal>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: actionlib_tutorials/AveragingResult
+	if (messageType == "actionlib_tutorials::AveragingResult")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<actionlib_tutorials::AveragingResult>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: actionlib_tutorials/FibonacciAction
+	if (messageType == "actionlib_tutorials::FibonacciAction")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<actionlib_tutorials::FibonacciAction>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: actionlib_tutorials/FibonacciActionFeedback
+	if (messageType == "actionlib_tutorials::FibonacciActionFeedback")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<actionlib_tutorials::FibonacciActionFeedback>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: actionlib_tutorials/FibonacciActionGoal
+	if (messageType == "actionlib_tutorials::FibonacciActionGoal")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<actionlib_tutorials::FibonacciActionGoal>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: actionlib_tutorials/FibonacciActionResult
+	if (messageType == "actionlib_tutorials::FibonacciActionResult")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<actionlib_tutorials::FibonacciActionResult>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: actionlib_tutorials/FibonacciFeedback
+	if (messageType == "actionlib_tutorials::FibonacciFeedback")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<actionlib_tutorials::FibonacciFeedback>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: actionlib_tutorials/FibonacciGoal
+	if (messageType == "actionlib_tutorials::FibonacciGoal")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<actionlib_tutorials::FibonacciGoal>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: actionlib_tutorials/FibonacciResult
+	if (messageType == "actionlib_tutorials::FibonacciResult")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<actionlib_tutorials::FibonacciResult>(rosNode, topicURI, 50));
 	}
 	// Publisher instance for ROS message type: bond/Constants
 	if (messageType == "bond::Constants")
@@ -1121,6 +1340,30 @@ boost::shared_ptr<ZyROSPublisher> ZyROSConnectorMessagePublisherFactory::createT
 		supported = true;
 		topicPublisher.reset(new ZyROSConnectorTopicPublisher<control_msgs::SingleJointPositionResult>(rosNode, topicURI, 50));
 	}
+	// Publisher instance for ROS message type: controller_manager_msgs/ControllerState
+	if (messageType == "controller_manager_msgs::ControllerState")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<controller_manager_msgs::ControllerState>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: controller_manager_msgs/ControllerStatistics
+	if (messageType == "controller_manager_msgs::ControllerStatistics")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<controller_manager_msgs::ControllerStatistics>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: controller_manager_msgs/ControllersStatistics
+	if (messageType == "controller_manager_msgs::ControllersStatistics")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<controller_manager_msgs::ControllersStatistics>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: controller_manager_msgs/HardwareInterfaceResources
+	if (messageType == "controller_manager_msgs::HardwareInterfaceResources")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<controller_manager_msgs::HardwareInterfaceResources>(rosNode, topicURI, 50));
+	}
 	// Publisher instance for ROS message type: diagnostic_msgs/DiagnosticArray
 	if (messageType == "diagnostic_msgs::DiagnosticArray")
 	{
@@ -1198,6 +1441,60 @@ boost::shared_ptr<ZyROSPublisher> ZyROSConnectorMessagePublisherFactory::createT
 	{
 		supported = true;
 		topicPublisher.reset(new ZyROSConnectorTopicPublisher<dynamic_reconfigure::StrParameter>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: gazebo_msgs/ContactState
+	if (messageType == "gazebo_msgs::ContactState")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<gazebo_msgs::ContactState>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: gazebo_msgs/ContactsState
+	if (messageType == "gazebo_msgs::ContactsState")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<gazebo_msgs::ContactsState>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: gazebo_msgs/LinkState
+	if (messageType == "gazebo_msgs::LinkState")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<gazebo_msgs::LinkState>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: gazebo_msgs/LinkStates
+	if (messageType == "gazebo_msgs::LinkStates")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<gazebo_msgs::LinkStates>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: gazebo_msgs/ModelState
+	if (messageType == "gazebo_msgs::ModelState")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<gazebo_msgs::ModelState>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: gazebo_msgs/ModelStates
+	if (messageType == "gazebo_msgs::ModelStates")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<gazebo_msgs::ModelStates>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: gazebo_msgs/ODEJointProperties
+	if (messageType == "gazebo_msgs::ODEJointProperties")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<gazebo_msgs::ODEJointProperties>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: gazebo_msgs/ODEPhysics
+	if (messageType == "gazebo_msgs::ODEPhysics")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<gazebo_msgs::ODEPhysics>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: gazebo_msgs/WorldState
+	if (messageType == "gazebo_msgs::WorldState")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<gazebo_msgs::WorldState>(rosNode, topicURI, 50));
 	}
 	// Publisher instance for ROS message type: geometry_msgs/Accel
 	if (messageType == "geometry_msgs::Accel")
@@ -1373,6 +1670,30 @@ boost::shared_ptr<ZyROSPublisher> ZyROSConnectorMessagePublisherFactory::createT
 		supported = true;
 		topicPublisher.reset(new ZyROSConnectorTopicPublisher<geometry_msgs::WrenchStamped>(rosNode, topicURI, 50));
 	}
+	// Publisher instance for ROS message type: map_msgs/OccupancyGridUpdate
+	if (messageType == "map_msgs::OccupancyGridUpdate")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<map_msgs::OccupancyGridUpdate>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: map_msgs/PointCloud2Update
+	if (messageType == "map_msgs::PointCloud2Update")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<map_msgs::PointCloud2Update>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: map_msgs/ProjectedMap
+	if (messageType == "map_msgs::ProjectedMap")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<map_msgs::ProjectedMap>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: map_msgs/ProjectedMapInfo
+	if (messageType == "map_msgs::ProjectedMapInfo")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<map_msgs::ProjectedMapInfo>(rosNode, topicURI, 50));
+	}
 	// Publisher instance for ROS message type: nav_msgs/GetMapAction
 	if (messageType == "nav_msgs::GetMapAction")
 	{
@@ -1444,6 +1765,30 @@ boost::shared_ptr<ZyROSPublisher> ZyROSConnectorMessagePublisherFactory::createT
 	{
 		supported = true;
 		topicPublisher.reset(new ZyROSConnectorTopicPublisher<nav_msgs::Path>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: pcl_msgs/ModelCoefficients
+	if (messageType == "pcl_msgs::ModelCoefficients")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<pcl_msgs::ModelCoefficients>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: pcl_msgs/PointIndices
+	if (messageType == "pcl_msgs::PointIndices")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<pcl_msgs::PointIndices>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: pcl_msgs/PolygonMesh
+	if (messageType == "pcl_msgs::PolygonMesh")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<pcl_msgs::PolygonMesh>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: pcl_msgs/Vertices
+	if (messageType == "pcl_msgs::Vertices")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<pcl_msgs::Vertices>(rosNode, topicURI, 50));
 	}
 	// Publisher instance for ROS message type: roscpp/Logger
 	if (messageType == "roscpp::Logger")
@@ -1684,12 +2029,6 @@ boost::shared_ptr<ZyROSPublisher> ZyROSConnectorMessagePublisherFactory::createT
 	{
 		supported = true;
 		topicPublisher.reset(new ZyROSConnectorTopicPublisher<smach_msgs::SmachContainerStructure>(rosNode, topicURI, 50));
-	}
-	// Publisher instance for ROS message type: sofa_softrobots_msgs/BodyTransforms
-	if (messageType == "sofa_softrobots_msgs::BodyTransforms")
-	{
-		supported = true;
-		topicPublisher.reset(new ZyROSConnectorTopicPublisher<sofa_softrobots_msgs::BodyTransforms>(rosNode, topicURI, 50));
 	}
 	// Publisher instance for ROS message type: std_msgs/Bool
 	if (messageType == "std_msgs::Bool")
@@ -1949,6 +2288,12 @@ boost::shared_ptr<ZyROSPublisher> ZyROSConnectorMessagePublisherFactory::createT
 		supported = true;
 		topicPublisher.reset(new ZyROSConnectorTopicPublisher<tf2_msgs::TFMessage>(rosNode, topicURI, 50));
 	}
+	// Publisher instance for ROS message type: theora_image_transport/Packet
+	if (messageType == "theora_image_transport::Packet")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<theora_image_transport::Packet>(rosNode, topicURI, 50));
+	}
 	// Publisher instance for ROS message type: trajectory_msgs/JointTrajectory
 	if (messageType == "trajectory_msgs::JointTrajectory")
 	{
@@ -1972,6 +2317,66 @@ boost::shared_ptr<ZyROSPublisher> ZyROSConnectorMessagePublisherFactory::createT
 	{
 		supported = true;
 		topicPublisher.reset(new ZyROSConnectorTopicPublisher<trajectory_msgs::MultiDOFJointTrajectoryPoint>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: turtle_actionlib/ShapeAction
+	if (messageType == "turtle_actionlib::ShapeAction")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<turtle_actionlib::ShapeAction>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: turtle_actionlib/ShapeActionFeedback
+	if (messageType == "turtle_actionlib::ShapeActionFeedback")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<turtle_actionlib::ShapeActionFeedback>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: turtle_actionlib/ShapeActionGoal
+	if (messageType == "turtle_actionlib::ShapeActionGoal")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<turtle_actionlib::ShapeActionGoal>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: turtle_actionlib/ShapeActionResult
+	if (messageType == "turtle_actionlib::ShapeActionResult")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<turtle_actionlib::ShapeActionResult>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: turtle_actionlib/ShapeFeedback
+	if (messageType == "turtle_actionlib::ShapeFeedback")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<turtle_actionlib::ShapeFeedback>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: turtle_actionlib/ShapeGoal
+	if (messageType == "turtle_actionlib::ShapeGoal")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<turtle_actionlib::ShapeGoal>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: turtle_actionlib/ShapeResult
+	if (messageType == "turtle_actionlib::ShapeResult")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<turtle_actionlib::ShapeResult>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: turtle_actionlib/Velocity
+	if (messageType == "turtle_actionlib::Velocity")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<turtle_actionlib::Velocity>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: turtlesim/Color
+	if (messageType == "turtlesim::Color")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<turtlesim::Color>(rosNode, topicURI, 50));
+	}
+	// Publisher instance for ROS message type: turtlesim/Pose
+	if (messageType == "turtlesim::Pose")
+	{
+		supported = true;
+		topicPublisher.reset(new ZyROSConnectorTopicPublisher<turtlesim::Pose>(rosNode, topicURI, 50));
 	}
 	// Publisher instance for ROS message type: visualization_msgs/ImageMarker
 	if (messageType == "visualization_msgs::ImageMarker")
